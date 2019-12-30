@@ -4,7 +4,7 @@
   <url>
     <loc>https://blog.v2next.com/2019/10/28/GraphQL-Apollo-Server-implementation/</loc>
     
-    <lastmod>2019-12-27T08:15:35.917Z</lastmod>
+    <lastmod>2019-12-30T09:08:25.989Z</lastmod>
     
   </url>
   
@@ -44,14 +44,14 @@
   </url>
   
   <url>
-    <loc>https://blog.v2next.com/2018/12/06/react-hooks/</loc>
+    <loc>https://blog.v2next.com/2018/08/25/react-vs-vue-vs-angular/</loc>
     
     <lastmod>2019-10-20T07:59:34.697Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.v2next.com/2018/08/25/react-vs-vue-vs-angular/</loc>
+    <loc>https://blog.v2next.com/2018/12/06/react-hooks/</loc>
     
     <lastmod>2019-10-20T07:59:34.697Z</lastmod>
     
@@ -72,7 +72,7 @@
   </url>
   
   <url>
-    <loc>https://blog.v2next.com/2019/03/15/nodejs-docker-webapp/</loc>
+    <loc>https://blog.v2next.com/2018/08/20/nodejs-websocket/</loc>
     
     <lastmod>2019-10-20T07:59:34.696Z</lastmod>
     
@@ -86,14 +86,7 @@
   </url>
   
   <url>
-    <loc>https://blog.v2next.com/2018/09/05/about-webassembly-wasm/</loc>
-    
-    <lastmod>2019-10-20T07:59:34.696Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.v2next.com/2018/08/20/nodejs-websocket/</loc>
+    <loc>https://blog.v2next.com/2019/03/15/nodejs-docker-webapp/</loc>
     
     <lastmod>2019-10-20T07:59:34.696Z</lastmod>
     
@@ -107,6 +100,13 @@
   </url>
   
   <url>
+    <loc>https://blog.v2next.com/2018/09/05/about-webassembly-wasm/</loc>
+    
+    <lastmod>2019-10-20T07:59:34.696Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.v2next.com/2017/07/25/Create-a-new-branch-with-git-and-manage-branches/</loc>
     
     <lastmod>2019-10-20T07:59:34.695Z</lastmod>
@@ -114,14 +114,14 @@
   </url>
   
   <url>
-    <loc>https://blog.v2next.com/2017/08/08/Understand-Babel-ecosystem/</loc>
+    <loc>https://blog.v2next.com/2017/12/27/Talk-about-performance-optimization/</loc>
     
     <lastmod>2019-10-20T07:59:34.695Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.v2next.com/2017/12/27/Talk-about-performance-optimization/</loc>
+    <loc>https://blog.v2next.com/2017/08/08/Understand-Babel-ecosystem/</loc>
     
     <lastmod>2019-10-20T07:59:34.695Z</lastmod>
     
