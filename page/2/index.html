@@ -43,7 +43,7 @@
     <canvas id="anm-canvas" class="anm-canvas"></canvas>
     <div class="left-col" q-class="show:isShow">
       
-<div class="overlay" style="background: #0872B4"></div>
+<div class="overlay" style="background: #2eb897"></div>
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
@@ -53,7 +53,7 @@
 		  <h1 class="header-author"><a href="/">Eric Wang</a></h1>
 		</hgroup>
 		
-		<p class="header-subtitle">Web Developer</p>
+		<p class="header-subtitle">万物之中，希望至美</p>
 		
 
 		<nav class="header-menu">
@@ -102,7 +102,7 @@
     <div class="mid-col" q-class="show:isShow,hide:isShow|isFalse">
       
 <nav id="mobile-nav">
-  	<div class="overlay js-overlay" style="background: #0872B4"></div>
+  	<div class="overlay js-overlay" style="background: #2eb897"></div>
 	<div class="btnctn js-mobile-btnctn">
   		<div class="slider-trigger list" q-on="click: openSlider(e)"><i class="icon icon-sort"></i></div>
 	</div>
@@ -115,7 +115,7 @@
 			  <h1 class="header-author js-header-author">Eric Wang</h1>
 			</hgroup>
 			
-			<p class="header-subtitle"><i class="icon icon-quo-left"></i>Web Developer<i class="icon icon-quo-right"></i></p>
+			<p class="header-subtitle"><i class="icon icon-quo-left"></i>万物之中，希望至美<i class="icon icon-quo-right"></i></p>
 			
 			
 			
@@ -163,6 +163,115 @@
           </div>
           <div id="js-content" class="content-ll">
             
+  
+    <article id="post-install-nvm-and-nodejs-on-SUSE-Linux" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/12/03/install-nvm-and-nodejs-on-SUSE-Linux/">安装 nvm and NodeJS 在 SUSE/Linux 环境</a>
+    </h1>
+  
+
+        
+        <a href="/2018/12/03/install-nvm-and-nodejs-on-SUSE-Linux/" class="archive-article-date">
+  	<time datetime="2018-12-03T08:54:46.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-12-03</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <blockquote><p>公司的项目产品 server build 的环境是 <code>SUSE Linux</code> ，所以前端项目构建使用的 NodeJS 是 linux 版本，研究了下 nvm 和 NodeJS 在 <code>SUSE</code> 的安装。</p>
+</blockquote>
+<h3 id="安装步骤"><a href="#安装步骤" class="headerlink" title="安装步骤"></a>安装步骤</h3><ul>
+<li>查看系统信息：</li>
+</ul>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> lsb_release -a; uname -a; arch</span></span><br></pre></td></tr></table></figure>
+<p>执行结果：</p>
+<pre>
+cnpvg50842594:~/.nvm/versions/node # lsb_release -a; uname -a; arch
+LSB Version:    n/a
+Distributor ID: SUSE LINUX
+Description:    SUSE Linux Enterprise Server 12 SP1
+Release:        12.1
+Codename:       n/a
+Linux cnpvg50842594 3.12.74-60.64.40-xen #1 SMP Wed May 10 05:07:16 UTC 2017 (4eb35ec) x86_64 x86_64 x86_64 GNU/Linux
+x86_64
+</pre>
+
+<ul>
+<li>下载安装 nvm：</li>
+</ul>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.10/install.sh | bash</span></span><br></pre></td></tr></table></figure>
+        
+          <a class="article-more-a" href="/2018/12/03/install-nvm-and-nodejs-on-SUSE-Linux/#more">more >></a>
+        
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">nvm</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">NodeJS</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">SUSE</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">Linux</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2018/12/03/install-nvm-and-nodejs-on-SUSE-Linux/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
   
     <article id="post-jwt-auth" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
@@ -290,11 +399,11 @@
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">jQuery</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">JavaScript</a>
         		</li>
       		 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">JavaScript</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">jQuery</a>
         		</li>
       		 
         		<li class="article-tag-list-item">
@@ -781,94 +890,6 @@
 
 
   
-    <article id="post-Create-a-React-app-with-zero-configuration-using-Parcel" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/12/28/Create-a-React-app-with-zero-configuration-using-Parcel/">Parcel，零配置开发 React 应用！</a>
-    </h1>
-  
-
-        
-        <a href="/2017/12/28/Create-a-React-app-with-zero-configuration-using-Parcel/" class="archive-article-date">
-  	<time datetime="2017-12-28T03:27:17.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-12-28</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <blockquote><p>本文译自 <a href="http://blog.jakoblind.no/react-parcel/" title="Create a React app with zero configuration using Parcel" target="_blank" rel="noopener">Create a React app with zero configuration using Parcel</a> 已经经历三四年的发展，社区和技术趋于成熟，它已经成为了前端开发中的必备工具。那问题来了，会有新的工具来挑战 webpack 的地位吗？各位不妨看看本文的 Parcel，说不定就是未来的主角。</p>
-</blockquote>
-<p>一开始使用 React 的痛苦想必大家都经历过。在真正进入编码之前，需要花大量的时间搞清楚如何配置 webpack。</p>
-<p><a href="https://github.com/facebookincubator/create-react-app" title="Create React App" target="_blank" rel="noopener">Create React App</a> 项目的流行就是因为它简化了配置，加快了项目初始化的速度。俗话说，成也风云，败也风云。将 webpack 配置隐藏既是它的优点，也是它的缺点。随着项目不断地扩大，你可能想做一些高级配置，就需要将 webpack 配置从 Create React App “拖”（eject）出来，这段配置异常复杂，这就回到了老问题——webpack 还是得学习啊！</p>
-<p>最近，一个新的构建工具 <a href="https://parceljs.org/" title="Parcel" target="_blank" rel="noopener">Parcel</a> 出现了，它是零配置的！真的不敢相信有这么好的东西，看起来所有问题都将迎刃而解。</p>
-        
-          <a class="article-more-a" href="/2017/12/28/Create-a-React-app-with-zero-configuration-using-Parcel/#more">more >></a>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">React</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">Parcel</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">Build System</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2017/12/28/Create-a-React-app-with-zero-configuration-using-Parcel/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
   
     <nav id="page-nav">
       <a class="extend prev" rel="prev" href="/">&laquo; Prev</a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/3/">Next &raquo;</a>
@@ -883,7 +904,7 @@
   <div class="outer">
     <div id="footer-info">
     	<div class="footer-left">
-				&copy; 2019 Eric Wang |
+				&copy; 2020 Eric Wang |
 				Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a>
     	</div>
       	<div class="footer-right">
@@ -964,6 +985,26 @@
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">ES2020</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">ES-Next</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">ECMAScript</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">JavaScript</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">git</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color1">React</a>
               </li>
              
@@ -973,10 +1014,6 @@
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">Build System</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">git</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -993,6 +1030,14 @@
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color1">Await</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">Frontend</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">Performance</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -1020,23 +1065,11 @@
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">Babel</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">Frontend</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">Performance</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">Micro Frontends</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">Kotlin</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">Babel</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -1048,19 +1081,7 @@
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">WebAssembly</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">wasm</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">Blazor</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">fun</a>
+                <a href="javascript:void(0)" class="js-tag color1">Micro Frontends</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -1080,11 +1101,19 @@
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">Docker</a>
+                <a href="javascript:void(0)" class="js-tag color2">WebAssembly</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">Web App</a>
+                <a href="javascript:void(0)" class="js-tag color5">wasm</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">Blazor</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">fun</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -1100,7 +1129,23 @@
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">Docker Compose</a>
+                <a href="javascript:void(0)" class="js-tag color2">Docker</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">Web App</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">React Hooks</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">ts</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">Typescript</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -1116,15 +1161,7 @@
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">React Hooks</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">ts</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">Typescript</a>
+                <a href="javascript:void(0)" class="js-tag color5">Docker Compose</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -1144,15 +1181,23 @@
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">JavaScript</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">Web</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">Github</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">ES11</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">EcmaScript</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">ES Next</a>
               </li>
             
             <div class="clearfix"></div>

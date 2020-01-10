@@ -16,7 +16,7 @@
 <meta property="og:site_name" content="Eric Wang的博客">
 <meta property="og:description" content="Great guide for Kotlin + React: https://play.kotlinlang.org/hands-on/Building%20Web%20Applications%20with%20React%20and%20Kotlin%20JS/01_Introduction Instead of using JSX, Kotlin React is using its ow">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-12-27T07:59:09.536Z">
+<meta property="og:updated_time" content="2020-01-08T14:34:41.714Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Kotlin React App">
 <meta name="twitter:description" content="Great guide for Kotlin + React: https://play.kotlinlang.org/hands-on/Building%20Web%20Applications%20with%20React%20and%20Kotlin%20JS/01_Introduction Instead of using JSX, Kotlin React is using its ow">
@@ -44,7 +44,7 @@
     <canvas id="anm-canvas" class="anm-canvas"></canvas>
     <div class="left-col" q-class="show:isShow">
       
-<div class="overlay" style="background: #0872B4"></div>
+<div class="overlay" style="background: #2eb897"></div>
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
@@ -54,7 +54,7 @@
 		  <h1 class="header-author"><a href="/">Eric Wang</a></h1>
 		</hgroup>
 		
-		<p class="header-subtitle">Web Developer</p>
+		<p class="header-subtitle">万物之中，希望至美</p>
 		
 
 		<nav class="header-menu">
@@ -103,7 +103,7 @@
     <div class="mid-col" q-class="show:isShow,hide:isShow|isFalse">
       
 <nav id="mobile-nav">
-  	<div class="overlay js-overlay" style="background: #0872B4"></div>
+  	<div class="overlay js-overlay" style="background: #2eb897"></div>
 	<div class="btnctn js-mobile-btnctn">
   		<div class="slider-trigger list" q-on="click: openSlider(e)"><i class="icon icon-sort"></i></div>
 	</div>
@@ -116,7 +116,7 @@
 			  <h1 class="header-author js-header-author">Eric Wang</h1>
 			</hgroup>
 			
-			<p class="header-subtitle"><i class="icon icon-quo-left"></i>Web Developer<i class="icon icon-quo-right"></i></p>
+			<p class="header-subtitle"><i class="icon icon-quo-left"></i>万物之中，希望至美<i class="icon icon-quo-right"></i></p>
 			
 			
 			
@@ -188,11 +188,11 @@
 <a id="more"></a>
 <h3 id="Frontend-with-Kotlin-JS"><a href="#Frontend-with-Kotlin-JS" class="headerlink" title="Frontend with Kotlin/JS"></a>Frontend with Kotlin/JS</h3><p>JetBrains create-react-kotlin-app repo: <a href="https://github.com/JetBrains/create-react-kotlin-app" target="_blank" rel="noopener">https://github.com/JetBrains/create-react-kotlin-app</a></p>
 <p>JetBrains kotlin-react-router-dom repo: <a href="https://github.com/JetBrains/kotlin-wrappers/tree/master/kotlin-react-router-dom" target="_blank" rel="noopener">https://github.com/JetBrains/kotlin-wrappers/tree/master/kotlin-react-router-dom</a></p>
-<p>I have create a repo, and coding here: <a href="https://github.com/ericwdq/kotlin-react-app" target="_blank" rel="noopener">https://github.com/ericwdq/kotlin-react-app</a></p>
+<p>I have created a repo, here’s the link: <a href="https://github.com/ericwdq/kotlin-react-app" target="_blank" rel="noopener">https://github.com/ericwdq/kotlin-react-app</a></p>
 <p>Add the kotlin-react-router-dom to the app, in order to integrate react-kotlin app into micro frontend container</p>
 <ol>
 <li>We need to add @jetbrains/kotlin-react-router-dom” modules to package.json by using commands</li>
-<li>List  “browserRouter” or “hashRouter” to register the react routers</li>
+<li>List “browserRouter” or “hashRouter” to register the react routers</li>
 <li>Creating navigation component like sidebar for routing, and expose the paths to container</li>
 </ol>
 <p>Can reuse react components from npm : <a href="https://play.kotlinlang.org/hands-on/Building%20Web%20Applications%20with%20React%20and%20Kotlin%20JS/07_Using_Packages_From_NPM" target="_blank" rel="noopener">https://play.kotlinlang.org/hands-on/Building%20Web%20Applications%20with%20React%20and%20Kotlin%20JS/07_Using_Packages_From_NPM</a></p>
@@ -203,7 +203,7 @@
 <ol>
 <li>We have to wrap each fundamental control/component, because fundamental index don’t have a default export. And each file will export a single component, which will be a huge workload as fundamental react has many components, and the content may changed.</li>
 <li>We can package fundamental-react in a specified naming space, and export them as a common library to all projects</li>
-<li>Use  @file:JsModule(“fundamental-react/Button”) to define a component, and better to add an interface ButtonProps to make it typed</li>
+<li>Use @file:JsModule(“fundamental-react/Button”) to define a component, and better to add an interface ButtonProps to make it typed</li>
 <li>Code snippet may like those</li>
 </ol>
 <p>Next step is how to package them into ui-framework and ui-utils template.</p>
@@ -242,6 +242,15 @@
 
   
 <nav id="article-nav">
+  
+    <a href="/2020/01/10/ES2020/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          种草 ES2020 新特性
+        
+      </div>
+    </a>
   
   
     <a href="/2019/10/28/GraphQL-Apollo-Server-implementation/" id="article-nav-older" class="article-nav-link-wrap">
@@ -286,7 +295,7 @@
   <div class="outer">
     <div id="footer-info">
     	<div class="footer-left">
-				&copy; 2019 Eric Wang |
+				&copy; 2020 Eric Wang |
 				Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a>
     	</div>
       	<div class="footer-right">
@@ -367,6 +376,26 @@
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">ES2020</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">ES-Next</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">ECMAScript</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">JavaScript</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">git</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color1">React</a>
               </li>
              
@@ -376,10 +405,6 @@
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">Build System</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">git</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -396,6 +421,14 @@
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color1">Await</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">Frontend</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">Performance</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -423,23 +456,11 @@
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">Babel</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">Frontend</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">Performance</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">Micro Frontends</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">Kotlin</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">Babel</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -451,19 +472,7 @@
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">WebAssembly</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">wasm</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">Blazor</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">fun</a>
+                <a href="javascript:void(0)" class="js-tag color1">Micro Frontends</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -483,11 +492,19 @@
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">Docker</a>
+                <a href="javascript:void(0)" class="js-tag color2">WebAssembly</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">Web App</a>
+                <a href="javascript:void(0)" class="js-tag color5">wasm</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">Blazor</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">fun</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -503,7 +520,23 @@
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">Docker Compose</a>
+                <a href="javascript:void(0)" class="js-tag color2">Docker</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">Web App</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">React Hooks</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">ts</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">Typescript</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -519,15 +552,7 @@
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">React Hooks</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">ts</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">Typescript</a>
+                <a href="javascript:void(0)" class="js-tag color5">Docker Compose</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -547,15 +572,23 @@
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">JavaScript</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">Web</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">Github</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">ES11</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">EcmaScript</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">ES Next</a>
               </li>
             
             <div class="clearfix"></div>
