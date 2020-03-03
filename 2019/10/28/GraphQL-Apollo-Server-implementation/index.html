@@ -9,7 +9,7 @@
   <title>GraphQL Apollo Server implementation | Eric Wang的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="目标是采用一个 GraphQL 库，能够使用较小的 payload 调用后端查询的 API，减少 HTTP 请求和响应的时间，优化 API 数据访问速度。  当然GraphQL还有很多的优势，能根据客户端的期望来返回 API 结构按需获取，API First，强类型 Schema，可以组合和连接多个 GraphQL API，合并为一个 API 等等。 我们选择了GraphQL Apollo Ser">
-<meta name="keywords" content="GraphQL,Apollo,Web API,Evaluation,Frontend Architecture,NodeJS">
+<meta name="keywords" content="GraphQL,Apollo,Web API,NodeJS,Evaluation,Frontend Architecture">
 <meta property="og:type" content="article">
 <meta property="og:title" content="GraphQL Apollo Server implementation">
 <meta property="og:url" content="https://blog.v2next.com/2019/10/28/GraphQL-Apollo-Server-implementation/index.html">
@@ -17,7 +17,7 @@
 <meta property="og:description" content="目标是采用一个 GraphQL 库，能够使用较小的 payload 调用后端查询的 API，减少 HTTP 请求和响应的时间，优化 API 数据访问速度。  当然GraphQL还有很多的优势，能根据客户端的期望来返回 API 结构按需获取，API First，强类型 Schema，可以组合和连接多个 GraphQL API，合并为一个 API 等等。 我们选择了GraphQL Apollo Ser">
 <meta property="og:locale" content="default">
 <meta property="og:image" content="https://www.apollographql.com/docs/apollo-server/ee7fbac9c0ca5b1dd6aef886bb695e63/index-diagram.svg">
-<meta property="og:updated_time" content="2020-01-13T05:20:05.496Z">
+<meta property="og:updated_time" content="2020-01-17T07:13:10.198Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="GraphQL Apollo Server implementation">
 <meta name="twitter:description" content="目标是采用一个 GraphQL 库，能够使用较小的 payload 调用后端查询的 API，减少 HTTP 请求和响应的时间，优化 API 数据访问速度。  当然GraphQL还有很多的优势，能根据客户端的期望来返回 API 结构按需获取，API First，强类型 Schema，可以组合和连接多个 GraphQL API，合并为一个 API 等等。 我们选择了GraphQL Apollo Ser">
@@ -226,6 +226,8 @@
 <p>Cannot use graphQL server with express router<br><a href="https://github.com/apollographql/apollo-server/issues/336" target="_blank" rel="noopener">https://github.com/apollographql/apollo-server/issues/336</a></p>
 <p>GraphQL is the better REST<br><a href="https://www.graphql.com/" target="_blank" rel="noopener">https://www.graphql.com/</a><br><a href="https://www.howtographql.com/basics/1-graphql-is-the-better-rest/" target="_blank" rel="noopener">https://www.howtographql.com/basics/1-graphql-is-the-better-rest/</a></p>
 <p>如何将 Web 主页性能提升十倍以上？<br><a href="https://www.infoq.cn/article/Xxyy8WZrWLwUlIF0*IxR" target="_blank" rel="noopener">https://www.infoq.cn/article/Xxyy8WZrWLwUlIF0*IxR</a></p>
+<p>GraphQL vs REST API 架构，谁更胜一筹？<br><a href="https://mp.weixin.qq.com/s/v1TVXz812eokOeFu07aC0w" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/v1TVXz812eokOeFu07aC0w</a></p>
+<p>GraphQL：API 的未来<br><a href="https://mp.weixin.qq.com/s/pD6A1FvEeC6kkmzXGGZKrQ" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/pD6A1FvEeC6kkmzXGGZKrQ</a></p>
 <!-- GraphQL Evaluation: -->
 <!-- https://wiki.wdf.sap.corp/wiki/display/Eureka/GraphQL+Evaluation -->
 <!-- https://claims.np.eurekacloud.io/api/intelligent-claims/api/TenantConfig/v1/846277611134976 -->
@@ -254,15 +256,15 @@
         		</li>
       		 
         		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">NodeJS</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
         			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">Evaluation</a>
         		</li>
       		 
         		<li class="article-tag-list-item">
         			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">Frontend Architecture</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">NodeJS</a>
         		</li>
       		
 		</ul>
@@ -442,7 +444,7 @@
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">NodeJs</a>
+                <a href="javascript:void(0)" class="js-tag color2">NodeJS</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -470,19 +472,15 @@
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">Kotlin</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">Micro Frontends</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">Frontend</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">Performance</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">Micro Frontends</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -514,22 +512,6 @@
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">Docker Compose</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">Docker</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">NodeJS</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">Web App</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">nvm</a>
               </li>
              
@@ -554,6 +536,18 @@
               </li>
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">Docker Compose</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">Docker</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">Web App</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">WebSocket</a>
               </li>
              
@@ -563,6 +557,10 @@
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">npm</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">Kotlin</a>
               </li>
              
               <li class="article-tag-list-item">

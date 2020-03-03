@@ -9,14 +9,14 @@
   <title>Docker 化 Node.js 的 Web App | Eric Wang的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="首先通过git clone命令在本地 clone 好一个 node app。 1git clone https://github.com/ericwdq/atlas-app.git 然后准备为 App 创建一个 Docker 镜像，最后再将创建的镜像运作在一个容器中。 Docker 可以把具有所有依赖关系的 App 打包到一个标准化单元的容器用于软件开发。 容器是 Linux 中基础概念，镜像就是">
-<meta name="keywords" content="Docker,NodeJS,Web App">
+<meta name="keywords" content="NodeJS,Docker,Web App">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Docker 化 Node.js 的 Web App">
 <meta property="og:url" content="https://blog.v2next.com/2019/03/15/nodejs-docker-webapp/index.html">
 <meta property="og:site_name" content="Eric Wang的博客">
 <meta property="og:description" content="首先通过git clone命令在本地 clone 好一个 node app。 1git clone https://github.com/ericwdq/atlas-app.git 然后准备为 App 创建一个 Docker 镜像，最后再将创建的镜像运作在一个容器中。 Docker 可以把具有所有依赖关系的 App 打包到一个标准化单元的容器用于软件开发。 容器是 Linux 中基础概念，镜像就是">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-10-20T07:59:34.696Z">
+<meta property="og:updated_time" content="2020-03-03T11:55:57.038Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Docker 化 Node.js 的 Web App">
 <meta name="twitter:description" content="首先通过git clone命令在本地 clone 好一个 node app。 1git clone https://github.com/ericwdq/atlas-app.git 然后准备为 App 创建一个 Docker 镜像，最后再将创建的镜像运作在一个容器中。 Docker 可以把具有所有依赖关系的 App 打包到一个标准化单元的容器用于软件开发。 容器是 Linux 中基础概念，镜像就是">
@@ -229,7 +229,7 @@ eric/atlas-app   latest              d6e01bdfc655        40 minutes ago      1.2
 <li><p><strong>执行容器中的 bash</strong></p>
 </li>
 </ul>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker <span class="built_in">exec</span> -it &lt;container id&gt; /bin/bash</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">docker <span class="built_in">exec</span> -it &lt;container id&gt; /bin/bash</span><br><span class="line"></span><br><span class="line">or</span><br><span class="line"></span><br><span class="line">docker <span class="built_in">exec</span> -it &lt;container id&gt; sh /* <span class="keyword">if</span> no bash inside container */</span><br></pre></td></tr></table></figure>
 <ul>
 <li><strong>删除容器</strong></li>
 </ul>
@@ -237,7 +237,7 @@ eric/atlas-app   latest              d6e01bdfc655        40 minutes ago      1.2
 <ul>
 <li><strong>删除镜像</strong></li>
 </ul>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker rmi Image &lt;container id&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker rmi image &lt;image id&gt;</span><br></pre></td></tr></table></figure>
 <p><strong>参考资料：</strong></p>
 <p>🔗 <a href="https://nodejs.org/en/docs/guides/nodejs-docker-webapp/" target="_blank" rel="noopener">Dockerizing a Node.js web app</a></p>
 <p><strong>下一步准备尝试使用 docker compose 多容器控制和自动化。 😊</strong></p>
@@ -256,11 +256,11 @@ eric/atlas-app   latest              d6e01bdfc655        40 minutes ago      1.2
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">Docker</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">NodeJS</a>
         		</li>
       		 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">NodeJS</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">Docker</a>
         		</li>
       		 
         		<li class="article-tag-list-item">
@@ -444,7 +444,7 @@ eric/atlas-app   latest              d6e01bdfc655        40 minutes ago      1.2
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">NodeJs</a>
+                <a href="javascript:void(0)" class="js-tag color2">NodeJS</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -472,19 +472,15 @@ eric/atlas-app   latest              d6e01bdfc655        40 minutes ago      1.2
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">Kotlin</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">Micro Frontends</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">Frontend</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">Performance</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">Micro Frontends</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -516,22 +512,6 @@ eric/atlas-app   latest              d6e01bdfc655        40 minutes ago      1.2
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">Docker Compose</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">Docker</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">NodeJS</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">Web App</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">nvm</a>
               </li>
              
@@ -556,6 +536,18 @@ eric/atlas-app   latest              d6e01bdfc655        40 minutes ago      1.2
               </li>
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">Docker Compose</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">Docker</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">Web App</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">WebSocket</a>
               </li>
              
@@ -565,6 +557,10 @@ eric/atlas-app   latest              d6e01bdfc655        40 minutes ago      1.2
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">npm</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">Kotlin</a>
               </li>
              
               <li class="article-tag-list-item">
