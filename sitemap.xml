@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.v2next.com/2019/08/18/Micro-Frontends-In-Action/</loc>
+    
+    <lastmod>2021-07-26T05:14:40.446Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.v2next.com/2018/12/06/react-hooks/</loc>
+    
+    <lastmod>2021-07-26T04:54:30.473Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.v2next.com/2019/03/15/nodejs-docker-webapp/</loc>
     
     <lastmod>2020-03-03T11:55:57.038Z</lastmod>
@@ -12,13 +26,6 @@
     <loc>https://blog.v2next.com/2019/10/28/GraphQL-Apollo-Server-implementation/</loc>
     
     <lastmod>2020-01-17T07:13:10.198Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.v2next.com/2019/08/18/Micro-Frontends-In-Action/</loc>
-    
-    <lastmod>2020-01-13T02:58:22.799Z</lastmod>
     
   </url>
   
@@ -51,14 +58,7 @@
   </url>
   
   <url>
-    <loc>https://blog.v2next.com/2018/08/25/react-vs-vue-vs-angular/</loc>
-    
-    <lastmod>2019-10-20T07:59:34.697Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.v2next.com/2018/12/06/react-hooks/</loc>
+    <loc>https://blog.v2next.com/2018/03/22/promising-promise-tips/</loc>
     
     <lastmod>2019-10-20T07:59:34.697Z</lastmod>
     
@@ -72,16 +72,9 @@
   </url>
   
   <url>
-    <loc>https://blog.v2next.com/2018/03/22/promising-promise-tips/</loc>
+    <loc>https://blog.v2next.com/2018/08/25/react-vs-vue-vs-angular/</loc>
     
     <lastmod>2019-10-20T07:59:34.697Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.v2next.com/2018/11/06/jwt-auth/</loc>
-    
-    <lastmod>2019-10-20T07:59:34.696Z</lastmod>
     
   </url>
   
@@ -100,14 +93,21 @@
   </url>
   
   <url>
-    <loc>https://blog.v2next.com/2018/08/20/nodejs-websocket/</loc>
+    <loc>https://blog.v2next.com/2018/12/03/install-nvm-and-nodejs-on-SUSE-Linux/</loc>
     
     <lastmod>2019-10-20T07:59:34.696Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.v2next.com/2018/12/03/install-nvm-and-nodejs-on-SUSE-Linux/</loc>
+    <loc>https://blog.v2next.com/2018/11/06/jwt-auth/</loc>
+    
+    <lastmod>2019-10-20T07:59:34.696Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.v2next.com/2018/08/20/nodejs-websocket/</loc>
     
     <lastmod>2019-10-20T07:59:34.696Z</lastmod>
     
@@ -121,21 +121,7 @@
   </url>
   
   <url>
-    <loc>https://blog.v2next.com/2017/08/08/Understand-Babel-ecosystem/</loc>
-    
-    <lastmod>2019-10-20T07:59:34.695Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.v2next.com/2017/12/27/Talk-about-performance-optimization/</loc>
-    
-    <lastmod>2019-10-20T07:59:34.695Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.v2next.com/2018/03/23/Javascript-async-and-await/</loc>
+    <loc>https://blog.v2next.com/2017/07/25/Create-a-new-branch-with-git-and-manage-branches/</loc>
     
     <lastmod>2019-10-20T07:59:34.695Z</lastmod>
     
@@ -149,7 +135,21 @@
   </url>
   
   <url>
-    <loc>https://blog.v2next.com/2017/07/25/Create-a-new-branch-with-git-and-manage-branches/</loc>
+    <loc>https://blog.v2next.com/2018/03/23/Javascript-async-and-await/</loc>
+    
+    <lastmod>2019-10-20T07:59:34.695Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.v2next.com/2017/12/27/Talk-about-performance-optimization/</loc>
+    
+    <lastmod>2019-10-20T07:59:34.695Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.v2next.com/2017/08/08/Understand-Babel-ecosystem/</loc>
     
     <lastmod>2019-10-20T07:59:34.695Z</lastmod>
     

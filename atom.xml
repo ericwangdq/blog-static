@@ -101,6 +101,8 @@
     </summary>
     
     
+      <category term="Frontend Architecture" scheme="https://blog.v2next.com/tags/Frontend-Architecture/"/>
+    
       <category term="GraphQL" scheme="https://blog.v2next.com/tags/GraphQL/"/>
     
       <category term="Apollo" scheme="https://blog.v2next.com/tags/Apollo/"/>
@@ -111,8 +113,6 @@
     
       <category term="Evaluation" scheme="https://blog.v2next.com/tags/Evaluation/"/>
     
-      <category term="Frontend Architecture" scheme="https://blog.v2next.com/tags/Frontend-Architecture/"/>
-    
   </entry>
   
   <entry>
@@ -120,13 +120,13 @@
     <link href="https://blog.v2next.com/2019/08/18/Micro-Frontends-In-Action/"/>
     <id>https://blog.v2next.com/2019/08/18/Micro-Frontends-In-Action/</id>
     <published>2019-08-18T08:18:10.000Z</published>
-    <updated>2020-01-13T02:58:22.799Z</updated>
+    <updated>2021-07-26T05:14:40.446Z</updated>
     
-    <content type="html"><![CDATA[<p>新部门的 <code>Cloud</code> 项目前端架构中实践了微前端，后面有时间再整理内容，下面在开发中收集的一些资料。</p><p>Micro frontends<br><a href="https://martinfowler.com/articles/micro-frontends.html" target="_blank" rel="noopener">https://martinfowler.com/articles/micro-frontends.html</a></p><p><a href="https://github.com/micro-frontends-demo" target="_blank" rel="noopener">https://github.com/micro-frontends-demo</a></p><p><a href="https://micro-frontends.org/" target="_blank" rel="noopener">https://micro-frontends.org/</a></p><a id="more"></a><p>Single SPA<br><a href="https://github.com/CanopyTax/single-spa" target="_blank" rel="noopener">https://github.com/CanopyTax/single-spa</a><br><a href="https://single-spa.js.org/" target="_blank" rel="noopener">https://single-spa.js.org/</a><br><a href="https://single-spa.surge.sh/" target="_blank" rel="noopener">https://single-spa.surge.sh/</a></p><p>Building Micro Frontends with React, Vue, and Single-spa<br><a href="https://github.com/dabit3/micro-frontend-example" target="_blank" rel="noopener">https://github.com/dabit3/micro-frontend-example</a><br><a href="https://dev.to/dabit3/building-micro-frontends-with-react-vue-and-single-spa-52op" target="_blank" rel="noopener">https://dev.to/dabit3/building-micro-frontends-with-react-vue-and-single-spa-52op</a></p><p>qiankun（乾坤）：An implementation of Micro Frontends, based on single-spa, but made it production-ready.<br>📦🚀Blazing fast, simple and completed solution for micro frontends.<br><a href="https://github.com/umijs/qiankun" target="_blank" rel="noopener">https://github.com/umijs/qiankun</a></p><p>可能是你见过最完善的微前端解决方案<br><a href="https://zhuanlan.zhihu.com/p/78362028" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/78362028</a></p><p>微前端如何落地？<br><a href="https://zhuanlan.zhihu.com/p/73090920" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/73090920</a></p><p>Micro frontends—a microservice approach to front-end web development<br><a href="https://medium.com/@tomsoderlund/micro-frontends-a-microservice-approach-to-front-end-web-development-f325ebdadc16" target="_blank" rel="noopener">https://medium.com/@tomsoderlund/micro-frontends-a-microservice-approach-to-front-end-web-development-f325ebdadc16</a></p><p>typescript+nodejs 是否适合开发大型项目？<br><a href="https://www.zhihu.com/question/338345340/answer/778069075" target="_blank" rel="noopener">https://www.zhihu.com/question/338345340/answer/778069075</a></p><p>Monorepo——大型前端项目的代码管理方式<br><a href="https://segmentfault.com/a/1190000019309820" target="_blank" rel="noopener">https://segmentfault.com/a/1190000019309820</a></p><p>Google repo mgmt:<br><a href="https://zhuanlan.zhihu.com/p/50564255" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/50564255</a></p>]]></content>
+    <content type="html"><![CDATA[<p>公司新开发的 <code>Cloud Native</code> SaaS 产品前端架构中使用了微前端，后面有时间再整理内容，下面在开发中收集的一些资料。</p><p>Micro frontends<br><a href="https://martinfowler.com/articles/micro-frontends.html" target="_blank" rel="noopener">https://martinfowler.com/articles/micro-frontends.html</a></p><p><a href="https://github.com/micro-frontends-demo" target="_blank" rel="noopener">https://github.com/micro-frontends-demo</a></p><p><a href="https://micro-frontends.org/" target="_blank" rel="noopener">https://micro-frontends.org/</a></p><a id="more"></a><p>Single SPA<br><a href="https://github.com/CanopyTax/single-spa" target="_blank" rel="noopener">https://github.com/CanopyTax/single-spa</a><br><a href="https://single-spa.js.org/" target="_blank" rel="noopener">https://single-spa.js.org/</a><br><a href="https://single-spa.surge.sh/" target="_blank" rel="noopener">https://single-spa.surge.sh/</a></p><p>Building Micro Frontends with React, Vue, and Single-spa<br><a href="https://github.com/dabit3/micro-frontend-example" target="_blank" rel="noopener">https://github.com/dabit3/micro-frontend-example</a><br><a href="https://dev.to/dabit3/building-micro-frontends-with-react-vue-and-single-spa-52op" target="_blank" rel="noopener">https://dev.to/dabit3/building-micro-frontends-with-react-vue-and-single-spa-52op</a></p><p>qiankun（乾坤）：An implementation of Micro Frontends, based on single-spa, but made it production-ready.<br>📦🚀Blazing fast, simple and completed solution for micro frontends.<br><a href="https://github.com/umijs/qiankun" target="_blank" rel="noopener">https://github.com/umijs/qiankun</a></p><p>你可能并不需要微前端<br><a href="https://zhuanlan.zhihu.com/p/391248835" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/391248835</a></p><p>目标是最完善的微前端解决方案 - qiankun 2.0<br><a href="https://zhuanlan.zhihu.com/p/131022025" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/131022025</a></p><p>可能是你见过最完善的微前端解决方案<br><a href="https://zhuanlan.zhihu.com/p/78362028" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/78362028</a></p><p>微前端如何落地？<br><a href="https://zhuanlan.zhihu.com/p/73090920" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/73090920</a></p><p>Micro frontends—a microservice approach to front-end web development<br><a href="https://medium.com/@tomsoderlund/micro-frontends-a-microservice-approach-to-front-end-web-development-f325ebdadc16" target="_blank" rel="noopener">https://medium.com/@tomsoderlund/micro-frontends-a-microservice-approach-to-front-end-web-development-f325ebdadc16</a></p><p>typescript+nodejs 是否适合开发大型项目？<br><a href="https://www.zhihu.com/question/338345340/answer/778069075" target="_blank" rel="noopener">https://www.zhihu.com/question/338345340/answer/778069075</a></p><p>Monorepo——大型前端项目的代码管理方式<br><a href="https://segmentfault.com/a/1190000019309820" target="_blank" rel="noopener">https://segmentfault.com/a/1190000019309820</a></p><p>Google repo mgmt:<br><a href="https://zhuanlan.zhihu.com/p/50564255" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/50564255</a></p>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;新部门的 &lt;code&gt;Cloud&lt;/code&gt; 项目前端架构中实践了微前端，后面有时间再整理内容，下面在开发中收集的一些资料。&lt;/p&gt;
+      &lt;p&gt;公司新开发的 &lt;code&gt;Cloud Native&lt;/code&gt; SaaS 产品前端架构中使用了微前端，后面有时间再整理内容，下面在开发中收集的一些资料。&lt;/p&gt;
 &lt;p&gt;Micro frontends&lt;br&gt;&lt;a href=&quot;https://martinfowler.com/articles/micro-frontends.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://martinfowler.com/articles/micro-frontends.html&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/micro-frontends-demo&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/micro-frontends-demo&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://micro-frontends.org/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://micro-frontends.org/&lt;/a&gt;&lt;/p&gt;
@@ -136,9 +136,9 @@
     
       <category term="React" scheme="https://blog.v2next.com/tags/React/"/>
     
-      <category term="Frontend Architecture" scheme="https://blog.v2next.com/tags/Frontend-Architecture/"/>
-    
       <category term="Micro Frontends" scheme="https://blog.v2next.com/tags/Micro-Frontends/"/>
+    
+      <category term="Frontend Architecture" scheme="https://blog.v2next.com/tags/Frontend-Architecture/"/>
     
   </entry>
   
@@ -234,9 +234,9 @@
     <link href="https://blog.v2next.com/2018/12/06/react-hooks/"/>
     <id>https://blog.v2next.com/2018/12/06/react-hooks/</id>
     <published>2018-12-06T06:45:59.000Z</published>
-    <updated>2019-10-20T07:59:34.697Z</updated>
+    <updated>2021-07-26T04:54:30.473Z</updated>
     
-    <content type="html"><![CDATA[<p>Introducing Hooks<br><a href="https://reactjs.org/docs/hooks-intro.html" target="_blank" rel="noopener">https://reactjs.org/docs/hooks-intro.html</a></p><p>How to Build a Todo List with React Hooks<br><a href="https://medium.freecodecamp.org/how-to-build-a-todo-list-with-react-hooks-ebaa4e3db3b" target="_blank" rel="noopener">https://medium.freecodecamp.org/how-to-build-a-todo-list-with-react-hooks-ebaa4e3db3b</a></p><p><a href="https://codesandbox.io/s/github/yazeedb/react-hooks-todo" target="_blank" rel="noopener">https://codesandbox.io/s/github/yazeedb/react-hooks-todo</a></p>]]></content>
+    <content type="html"><![CDATA[<p>Introducing Hooks<br><a href="https://reactjs.org/docs/hooks-intro.html" target="_blank" rel="noopener">https://reactjs.org/docs/hooks-intro.html</a></p><p>抓住本质，方能事半功倍，React Hooks简化了逻辑复用<br><a href="https://time.geekbang.org/column/article/14d46f6fa5ea1f48dacc704286405258/share?code=l-brBdkoeQ1ityTQ%2FH2uH9hODEf7VVKVuGNkPW2g1S0%3D" target="_blank" rel="noopener">https://time.geekbang.org/column/article/14d46f6fa5ea1f48dacc704286405258/share?code=l-brBdkoeQ1ityTQ%2FH2uH9hODEf7VVKVuGNkPW2g1S0%3D</a></p><p>How to Build a Todo List with React Hooks<br><a href="https://medium.freecodecamp.org/how-to-build-a-todo-list-with-react-hooks-ebaa4e3db3b" target="_blank" rel="noopener">https://medium.freecodecamp.org/how-to-build-a-todo-list-with-react-hooks-ebaa4e3db3b</a></p><p><a href="https://codesandbox.io/s/github/yazeedb/react-hooks-todo" target="_blank" rel="noopener">https://codesandbox.io/s/github/yazeedb/react-hooks-todo</a></p>]]></content>
     
     <summary type="html">
     
@@ -614,6 +614,31 @@ x86_64
   </entry>
   
   <entry>
+    <title>Create a new branch with git and manage branches</title>
+    <link href="https://blog.v2next.com/2017/07/25/Create-a-new-branch-with-git-and-manage-branches/"/>
+    <id>https://blog.v2next.com/2017/07/25/Create-a-new-branch-with-git-and-manage-branches/</id>
+    <published>2017-07-25T08:25:46.000Z</published>
+    <updated>2019-10-20T07:59:34.695Z</updated>
+    
+    <content type="html"><![CDATA[<p>Forked from <a href="https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches" target="_blank" rel="noopener">https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches</a></p><p>In your github fork, you need to keep your master branch clean, by clean I mean without any changes, like that you can create at any time a branch from your master. Each time that you want to commit a bug or a feature, you need to create a branch for it, which will be a copy of your master branch.</p><p>When you do a pull request on a branch, you can continue to work on another branch and make another pull request on this other branch.</p><p>Before creating a new branch, pull the changes from upstream. Your master needs to be up to date.</p><p>Create the branch on your local machine and switch in this branch :</p><pre>$ git checkout -b [name_of_your_new_branch]</pre><a id="more"></a><p>Change working branch :</p><pre>$ git checkout [name_of_your_new_branch]</pre><p>Push the branch on github :</p><pre>$ git push origin [name_of_your_new_branch]</pre><p>When you want to commit something in your branch, be sure to be in your branch.</p><p>You can see all branches created by using :</p><pre>$ git branch</pre><p>Which will show :</p><pre>* approval_messages  master  master_clean</pre><p>Add a new remote for your branch :</p><pre>$ git remote add [name_of_your_remote] <url></url></pre><p>Push changes from your commit into your branch :</p><pre>$ git push [name_of_your_new_remote] [name_of_your_branch]</pre><p>Update your branch when the original branch from official repository has been updated :</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git fetch [name_of_your_remote]</span><br></pre></td></tr></table></figure><p>Then you need to apply to merge changes, if your branch is derivated from develop you need to do :</p><pre>$ git merge [name_of_your_remote]/develop</pre><p>Delete a branch on your local filesystem :</p><pre>$ git branch -d [name_of_your_new_branch]</pre><p>To force the deletion of local branch on your filesystem :</p><pre>$ git branch -D [name_of_your_new_branch]</pre><p>Delete the branch on github :</p><pre>$ git push origin :[name_of_your_new_branch]</pre><p>The only difference is the : to say delete, you can do it too by using github interface to remove branch : <a href="https://help.github.com/articles/deleting-unused-branches" target="_blank" rel="noopener">https://help.github.com/articles/deleting-unused-branches</a>.</p><p>If you want to change default branch, it’s so easy with github, in your fork go into Admin and in the drop-down list default branch choose what you want.</p><p>This will push all your branches to the remote, and –set-upstream tracking correctly for you:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push --all -u</span><br></pre></td></tr></table></figure><p>(Not exactly what the OP was asking for, but this one-liner is pretty popular)</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Forked from &lt;a href=&quot;https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In your github fork, you need to keep your master branch clean, by clean I mean without any changes, like that you can create at any time a branch from your master. Each time that you want to commit a bug or a feature, you need to create a branch for it, which will be a copy of your master branch.&lt;/p&gt;
+&lt;p&gt;When you do a pull request on a branch, you can continue to work on another branch and make another pull request on this other branch.&lt;/p&gt;
+&lt;p&gt;Before creating a new branch, pull the changes from upstream. Your master needs to be up to date.&lt;/p&gt;
+&lt;p&gt;Create the branch on your local machine and switch in this branch :&lt;/p&gt;
+&lt;pre&gt;$ git checkout -b [name_of_your_new_branch]&lt;/pre&gt;
+    
+    </summary>
+    
+    
+      <category term="git" scheme="https://blog.v2next.com/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
     <title>How to handle conflicts with git</title>
     <link href="https://blog.v2next.com/2017/07/25/How-to-handle-conflicts-with-git/"/>
     <id>https://blog.v2next.com/2017/07/25/How-to-handle-conflicts-with-git/</id>
@@ -633,31 +658,6 @@ x86_64
 
 &lt;p&gt;and then a :&lt;/p&gt;
 &lt;pre&gt;$ git merge upstream/master&lt;/pre&gt;
-    
-    </summary>
-    
-    
-      <category term="git" scheme="https://blog.v2next.com/tags/git/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Create a new branch with git and manage branches</title>
-    <link href="https://blog.v2next.com/2017/07/25/Create-a-new-branch-with-git-and-manage-branches/"/>
-    <id>https://blog.v2next.com/2017/07/25/Create-a-new-branch-with-git-and-manage-branches/</id>
-    <published>2017-07-25T08:25:46.000Z</published>
-    <updated>2019-10-20T07:59:34.695Z</updated>
-    
-    <content type="html"><![CDATA[<p>Forked from <a href="https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches" target="_blank" rel="noopener">https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches</a></p><p>In your github fork, you need to keep your master branch clean, by clean I mean without any changes, like that you can create at any time a branch from your master. Each time that you want to commit a bug or a feature, you need to create a branch for it, which will be a copy of your master branch.</p><p>When you do a pull request on a branch, you can continue to work on another branch and make another pull request on this other branch.</p><p>Before creating a new branch, pull the changes from upstream. Your master needs to be up to date.</p><p>Create the branch on your local machine and switch in this branch :</p><pre>$ git checkout -b [name_of_your_new_branch]</pre><a id="more"></a><p>Change working branch :</p><pre>$ git checkout [name_of_your_new_branch]</pre><p>Push the branch on github :</p><pre>$ git push origin [name_of_your_new_branch]</pre><p>When you want to commit something in your branch, be sure to be in your branch.</p><p>You can see all branches created by using :</p><pre>$ git branch</pre><p>Which will show :</p><pre>* approval_messages  master  master_clean</pre><p>Add a new remote for your branch :</p><pre>$ git remote add [name_of_your_remote] <url></url></pre><p>Push changes from your commit into your branch :</p><pre>$ git push [name_of_your_new_remote] [name_of_your_branch]</pre><p>Update your branch when the original branch from official repository has been updated :</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git fetch [name_of_your_remote]</span><br></pre></td></tr></table></figure><p>Then you need to apply to merge changes, if your branch is derivated from develop you need to do :</p><pre>$ git merge [name_of_your_remote]/develop</pre><p>Delete a branch on your local filesystem :</p><pre>$ git branch -d [name_of_your_new_branch]</pre><p>To force the deletion of local branch on your filesystem :</p><pre>$ git branch -D [name_of_your_new_branch]</pre><p>Delete the branch on github :</p><pre>$ git push origin :[name_of_your_new_branch]</pre><p>The only difference is the : to say delete, you can do it too by using github interface to remove branch : <a href="https://help.github.com/articles/deleting-unused-branches" target="_blank" rel="noopener">https://help.github.com/articles/deleting-unused-branches</a>.</p><p>If you want to change default branch, it’s so easy with github, in your fork go into Admin and in the drop-down list default branch choose what you want.</p><p>This will push all your branches to the remote, and –set-upstream tracking correctly for you:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push --all -u</span><br></pre></td></tr></table></figure><p>(Not exactly what the OP was asking for, but this one-liner is pretty popular)</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Forked from &lt;a href=&quot;https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;In your github fork, you need to keep your master branch clean, by clean I mean without any changes, like that you can create at any time a branch from your master. Each time that you want to commit a bug or a feature, you need to create a branch for it, which will be a copy of your master branch.&lt;/p&gt;
-&lt;p&gt;When you do a pull request on a branch, you can continue to work on another branch and make another pull request on this other branch.&lt;/p&gt;
-&lt;p&gt;Before creating a new branch, pull the changes from upstream. Your master needs to be up to date.&lt;/p&gt;
-&lt;p&gt;Create the branch on your local machine and switch in this branch :&lt;/p&gt;
-&lt;pre&gt;$ git checkout -b [name_of_your_new_branch]&lt;/pre&gt;
     
     </summary>
     
